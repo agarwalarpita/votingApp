@@ -1,0 +1,39 @@
+{
+  "name": "poll-in",
+  "version": "1.0.0",
+  "description": "Freecodecamp full stack voting app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajatkantinandi/poll-in.git"
+  },
+  "keywords": [
+    "voting",
+    "freecodecamp",
+    "poll",
+    "full-stack",
+    "poll-in",
+    "heroku"
+  ],
+  "author": "Rajat Kanti Nandi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajatkantinandi/poll-in/issues"
+  },
+  "homepage": "https://github.com/rajatkantinandi/poll-in#readme",
+  "dependencies": {
+    "compression": "^1.7.3",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "mongodb": "^3.0.4",
+    "nodemon": "^1.17.3",
+    "npm": "^5.7.1"
+  }
+}
